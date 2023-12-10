@@ -1,0 +1,46 @@
+.navbar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+.navbar .logo {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  gap: 10px;
+}
+.navbar .icons {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.navbar .icons .notification {
+  position: relative;
+}
+.navbar .icons .notification .count {
+  background-color: red;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  color: white;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  top: -12px;
+  right: -12px;
+  font-size: 12px;
+}
+.navbar .icons .user {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.navbar .icons .user img {
+  width: 26px;
+  height: 26px;
+  border-radius: 50%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=navbar.css.map */

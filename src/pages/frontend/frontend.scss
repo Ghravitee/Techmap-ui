@@ -1,0 +1,10 @@
+@import "../../styles/variables.scss";
+
+.frontend-heading {
+  margin-bottom: 1rem;
+}
+.frontend-box {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}

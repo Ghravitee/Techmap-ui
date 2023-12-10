@@ -1,0 +1,26 @@
+@import "../../styles/variables.scss";
+
+.course-flex-container {
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid $soft-bg;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .circle1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: $first-inner-box;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+
+  .course-title {
+    font-size: 1rem;
+  }
+}

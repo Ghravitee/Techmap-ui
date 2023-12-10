@@ -1,0 +1,34 @@
+.home {
+  display: grid;
+  gap: 20px;
+}
+.home .home-box1 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.home .home-box2 {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.home .box {
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #384256;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .box1 {
+  background-color: #4A486F;
+}
+.home .box2 {
+  background-color: #895260;
+}
+.home .box3 {
+  background-color: #547186;
+}
+.home .box4 {
+  background-color: #9E8562;
+}/*# sourceMappingURL=home.css.map */

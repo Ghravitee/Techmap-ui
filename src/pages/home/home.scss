@@ -1,0 +1,44 @@
+@import "../../styles/variables.scss";
+
+.home {
+  display: grid;
+  gap: 20px;
+
+  .home-box1 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .home-box2 {
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+
+  .box {
+    padding: 30px;
+    border-radius: 10px;
+    border: 1px solid $soft-bg;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .box1 {
+    background-color: $first-box;
+  }
+
+  .box2 {
+    background-color: $second-box;
+  }
+  .box3 {
+    background-color: $third-box;
+  }
+  .box4 {
+    background-color: $fourth-box;
+  }
+
+  
+}

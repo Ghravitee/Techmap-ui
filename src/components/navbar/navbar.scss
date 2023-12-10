@@ -1,0 +1,51 @@
+.navbar {
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+
+  .logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    gap: 10px;
+  }
+
+  .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+
+    .notification {
+        position: relative;
+
+      .count {
+        background-color: red;
+        width: 16px;
+        height: 16px;
+        border-radius: 50%;
+        color: white;
+        position: absolute;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        top: -12px;
+        right: -12px;
+        font-size: 12px;
+      }
+    }
+
+    .user {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+
+      img {
+        width: 26px;
+        height: 26px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+    }
+  }
+}

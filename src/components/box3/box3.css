@@ -1,0 +1,16 @@
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+}
+.flex-container .circle3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1B8BE3;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}/*# sourceMappingURL=box3.css.map */

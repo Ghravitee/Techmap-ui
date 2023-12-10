@@ -1,0 +1,22 @@
+.course-flex-container {
+  flex-direction: column;
+  gap: 15px;
+  padding: 30px;
+  border-radius: 10px;
+  border: 1px solid #384256;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.course-flex-container .circle1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #5B68FF;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.course-flex-container .course-title {
+  font-size: 1rem;
+}/*# sourceMappingURL=course1.css.map */

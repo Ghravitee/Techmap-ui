@@ -1,0 +1,21 @@
+@import "../../styles/variables.scss";
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+
+    .circle4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $fourth-inner-box;
+        height: 60px;
+        width: 60px;
+        border-radius: 50%;
+    }
+
+}
+
